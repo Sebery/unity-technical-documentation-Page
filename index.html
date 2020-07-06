@@ -15,6 +15,17 @@
 		/>
 		<meta name="author" content="Sebery" />
 		<meta name="copyright" content="Copyright Sebery" />
+		<!-- STYLES -->
+		<link rel="stylesheet" href="/style.css" />
+		<!-- FONTS -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<!-- NAVIGATION -->
@@ -23,11 +34,11 @@
 
 			<ul>
 				<li class="navlink">
-					<a href="#installing_unity">Installing unity</a>
+					<a href="#installing_unity">Installing Unity</a>
 				</li>
-				<li class="navlink"><a href="#starting_unity">Starting unity</a></li>
+				<li class="navlink"><a href="#starting_unity">Starting Unity</a></li>
 				<li class="navlink">
-					<a href="#unity_interface">Unity's interface</a>
+					<a href="#unity_interface">Unity's Interface</a>
 				</li>
 				<li class="navlink"><a href="#upgrade_guides">Upgrade Guides</a></li>
 				<li class="navlink"><a href="#reference">Reference</a></li>
@@ -35,18 +46,18 @@
 		</nav>
 
 		<!-- MAIN CONTENT -->
-		<main id="main-doc">
+		<main id="main-doc" class="first-element">
 			<section class="main-section" id="installing_unity">
-				<header>Installing unity</header>
-				<p>
+				<header class="title">Installing Unity</header>
+				<p class="black-box shadow">
 					The Hub is the primary way to install the Unity Editor, create
 					projects, and manage your Unity experience. It provides a central
 					location to manage your Editor installations, Accounts and Licenses,
 					and Projects. For more information, see Installing Unity using the
 					Hub.
 				</p>
-				<h2 class="subtitle">Other installation options</h2>
-				<ul>
+				<h2 class="subtitle">-Other installation options</h2>
+				<ul class="list">
 					<li>
 						<p>
 							You can use the command line to install the Editor. If you
@@ -67,20 +78,21 @@
 				</ul>
 			</section>
 			<section class="main-section" id="starting_unity">
-				<header>Starting unity</header>
-				<p>
+				<header class="title">Starting Unity</header>
+				<p class="black-box shadow">
 					If you start the Unity Editor without the Hub installed, Unity prompts
 					you to install it. If you have a license from a previous version of
 					Unity, you can create an empty project from the Hub installation
 					prompt. If you subsequently try to create or open a project from
 					within the Unity Editor, Unity prompts install the Hub.
 				</p>
-				<h2 class="subtitle">Creating a Project</h2>
+				<h2 class="subtitle">-Creating a Project</h2>
 				<img
+					class="shadow"
 					src="https://i.ibb.co/xL8csLX/creating-Project.png"
 					alt="Creating a project in unity image"
 				/>
-				<ul>
+				<ul class="list">
 					<li>
 						<p>
 							Click the New button. The title bar of the New Project dialog box
@@ -98,13 +110,14 @@
 				</ul>
 			</section>
 			<section class="main-section" id="unity_interface">
-				<header>Unity's interface</header>
+				<header class="title">Unity's Interface</header>
 				<img
+					class="shadow"
 					src="https://i.ibb.co/YcHCmkN/unity-Interface.png"
 					alt="Unity Interface Image"
 				/>
 
-				<ul>
+				<ul class="list">
 					<li>
 						<p>
 							(A) The Toolbar provides access to the most essential working
@@ -154,9 +167,9 @@
 				</ul>
 			</section>
 			<section class="main-section" id="upgrade_guides">
-				<header>Upgrade guides</header>
+				<header class="title">Upgrade Guides</header>
 
-				<ul>
+				<ul class="list">
 					<li><p>Upgrading to Unity 2019 LTS [Released 09 June 2020]</p></li>
 					<li><p>Upgrading to Unity 2018 LTS [Released 10 May 2019]</p></li>
 					<li>
@@ -203,16 +216,15 @@
 				</ul>
 			</section>
 			<section class="main-section" id="reference">
-				<header>Reference</header>
+				<header class="title">Reference</header>
 
-				<ul>
+				<ul class="list">
 					<li>
 						<p>
 							All the documentation in this page is taken from
 							<a
 								target="_blank"
 								rel="noopener"
-								rel="noreferrer"
 								href="https://docs.unity3d.com/Manual/UnityOverview.html"
 								>Unity</a
 							>.
@@ -221,5 +233,9 @@
 				</ul>
 			</section>
 		</main>
+
+		<footer>
+			<p>Made By Sebery - &copy;2020</p>
+		</footer>
 	</body>
 </html>
